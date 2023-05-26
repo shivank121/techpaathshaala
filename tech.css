@@ -1,0 +1,45 @@
+*{              /* css reset*/
+margin: 0;
+padding: 0;
+}
+.FAQs{
+    background-color: aliceblue;
+    height: 1000px;
+    border-radius: 24px;
+}
+.FAQs h1{
+    text-align: center;
+    padding: 27px;
+    font-size: 40px;
+} 
+.FAQs-row{
+    display: flex;
+    width: 971px;
+    justify-content: flex-start;
+    margin: 15px auto;
+    background-color: white;
+    padding: 10px;
+    border-radius: 16px;
+}
+.icon{
+    padding-left: 27px;
+}
+.intro{
+    padding-top: 15px;
+    margin-left: 34px;
+}
+.FAQs section a img{
+    width: 47px;
+}
+.FAQs-row section a img:hover{      /* psuedo class for plus icon*/
+    
+}
+.FAQs-row section span a{
+text-decoration: none;
+}
+.FAQs-row section span a:hover{       /* psuedo class for pluse icon'intro */
+    color: rgb(125, 222, 244);
+}
+.FAQs-row section{
+
+}
