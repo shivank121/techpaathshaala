@@ -43,3 +43,47 @@ text-decoration: none;
 .FAQs-row section{
 
 }
+/* Get free consulting session from our experts   */
+.session_form{
+    /* background-color: antiquewhite; */
+    display: flex;
+    height: 888px;
+}
+.elementor img{
+    width: 432px;
+    padding: 81px;
+    margin-top: 143px;
+}
+.form{
+    padding: 41px;
+    margin-top: 176px;
+}
+.form h1{
+width: 201px;
+width: 410px;
+    font-size: 50px;
+    text-align: start;
+    padding: 0px;
+}
+form{
+    line-height: 33px;
+}
+form label{
+
+}
+form input{
+    height: 44px;
+    width: 271px;
+    border-radius: 8px;
+}
+.form button{
+    padding: 13px;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #0909f3;
+    font-size: 15px;
+    color: white;
+}
+.form button:hover{
+    cursor: pointer;
+}
