@@ -87,3 +87,33 @@ form input{
 .form button:hover{
     cursor: pointer;
 }
+/* footer page  */
+.offline_address{
+
+}
+table{
+    
+}
+table tr{
+ padding: 10px;
+}
+table td{
+padding: 10px;
+}
+.offline_address img{
+    width: 31px;
+}
+.offline_address a{
+    font-size: 29px;
+    text-decoration: none;
+}
+.online_contect{
+
+}
+.online_contect b{
+    font-size: 30px;
+}
+
+.online_contect section img{
+width: 200px;
+}
