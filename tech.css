@@ -1,8 +1,10 @@
-*{              /* css reset*/
-margin: 0;
-padding: 0;
+* {
+    /* css reset*/
+    margin: 0;
+    padding: 0;
 }
- /* HEADER */
+
+/* HEADER */
 header {
     background-color: antiquewhite;
     position: fixed;
@@ -32,6 +34,7 @@ header {
 .manubar img {
     width: 38px;
 }
+
 /* MAIN PAGE */
 /* page_1 */
 .page_1 {
@@ -109,6 +112,7 @@ button:hover {
     justify-content: space-evenly;
     align-items: center;
     align-items: center;
+    height: 432px;
 }
 
 
@@ -149,18 +153,101 @@ button:hover {
     font-family: Roboto Condensed;
 }
 
+/* PAGE 3 */
+.page_3 {
+    width: 377px;
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    margin-right: 156px;
+}
 
-.FAQs{
+.page_3 div {
+    padding: 9px;
+    border: 1px solid beige;
+    margin: 3px;
+    border-radius: 19px;
+}
+
+.page_3 div:hover {
+    cursor: pointer;
+}
+
+.page_3 img {
+    width: 17px;
+    margin: 0px 13px;
+}
+
+.page_3 span {
+    font-size: 19px;
+}
+
+.second-div {
+    font-size: 19px;
+}
+
+.third-div {}
+
+/* LEARN WITH US PAGE -4 */
+.page_4 {
+    width: 100%;
+    clear: both;
+    display: flex;
+    justify-content: space-around;
+}
+
+.page_4 h1 {
+    font-size: 45px;
+    padding-left: 86px;
+    padding-top: 47px;
+}
+.page_4 p{}
+.page_4 img{
+    width: 42px;
+}
+
+.p_4-section_1 {
+    width: 295px;
+    /* background: beige; */
+}
+
+.p_4-section_2 {
+    width: 400px;
+    /* background: beige; */
+}
+.p_4-section_2 section{
+    padding-top: 60px;
+    line-height: 26px;
+}
+
+.p_4-section_3 {
+    width: 360px;
+    /* background: beige; */
+}
+.p_4-section_3 section{
+    padding-top: 60px;
+    line-height: 26px;
+}
+.industry section img{
+padding-top: 25px;
+}
+
+/* FAQs page */
+
+.FAQs {
     background-color: aliceblue;
     height: 1000px;
     border-radius: 24px;
+    clear: both;
 }
-.FAQs h1{
+
+.FAQs h1 {
     text-align: center;
     padding: 27px;
     font-size: 40px;
-} 
-.FAQs-row{
+}
+
+.FAQs-row {
     display: flex;
     width: 971px;
     justify-content: flex-start;
@@ -169,62 +256,75 @@ button:hover {
     padding: 10px;
     border-radius: 16px;
 }
-.icon{
+
+.icon {
     padding-left: 27px;
 }
-.intro{
+
+.intro {
     padding-top: 15px;
     margin-left: 34px;
 }
-.FAQs section a img{
+
+.FAQs section a img {
     width: 47px;
 }
-.FAQs-row section a img:hover{      /* psuedo class for plus icon*/
-    
-}
-.FAQs-row section span a{
-text-decoration: none;
-}
-.FAQs-row section span a:hover{       /* psuedo class for pluse icon'intro */
-    color: rgb(125, 222, 244);
-}
-.FAQs-row section{
+
+.FAQs-row section a img:hover {
+    /* psuedo class for plus icon*/
 
 }
+
+.FAQs-row section span a {
+    text-decoration: none;
+}
+
+.FAQs-row section span a:hover {
+    /* psuedo class for pluse icon'intro */
+    color: rgb(125, 222, 244);
+}
+
+.FAQs-row section {}
+
 /* Get free consulting session from our experts   */
-.session_form{
+.session_form {
     /* background-color: antiquewhite; */
     display: flex;
     height: 888px;
 }
-.elementor img{
+
+.elementor img {
     width: 432px;
     padding: 81px;
     margin-top: 143px;
 }
-.form{
+
+.form {
     padding: 41px;
     margin-top: 176px;
 }
-.form h1{
-width: 201px;
-width: 410px;
+
+.form h1 {
+    width: 201px;
+    width: 410px;
     font-size: 50px;
     text-align: start;
     padding: 0px;
 }
-form{
+
+form {
     line-height: 33px;
 }
-form label{
 
-}
-form input{
+form label {}
+
+form input {
     height: 44px;
     width: 271px;
     border-radius: 8px;
 }
-.form button{
+
+.form button {
     padding: 13px;
     font-weight: bold;
     border-radius: 5px;
@@ -232,36 +332,79 @@ form input{
     font-size: 15px;
     color: white;
 }
-.form button:hover{
+
+.form button:hover {
     cursor: pointer;
 }
-/* footer page  */
-.offline_address{
 
+/* footer page  */
+.footer {
+    height: 400px;
 }
-table{
-    
+
+.footer_logo img {
+    height: 50px;
+    margin-top: 40px;
+    margin-left: 15px;
 }
-table tr{
- padding: 10px;
+
+.offline_address {
+    display: inline-block;
+    margin-left: 10px;
 }
-table td{
-padding: 10px;
+
+table {}
+
+table tr {
+    padding: 10px;
 }
-.offline_address img{
+
+table td {
+    padding: 10px;
+}
+
+.offline_address img {
     width: 31px;
 }
-.offline_address a{
+
+.offline_address a {
     font-size: 29px;
     text-decoration: none;
 }
-.online_contect{
 
+.online_contect {
+    float: right;
+    width: 683px;
+    margin-top: 28px;
 }
-.online_contect b{
+
+.online_contect b {
     font-size: 30px;
+    padding-left: 44px;
 }
 
-.online_contect section img{
+/* .online_contect section img{
 width: 200px;
+} */
+.links {
+    display: flex;
+    padding-top: 13px;
+    justify-content: space-evenly;
+    width: 470px
+}
+
+.facebook img {
+    width: 129px;
+}
+
+.intagram img {
+    width: 68px;
+}
+
+.twitter img {
+    width: 86px;
+}
+
+.youtub img {
+    width: 84px;
 }
