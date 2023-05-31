@@ -6,7 +6,7 @@
 
 /* HEADER */
 header {
-    background-color: antiquewhite;
+    background-color: rgb(254, 253, 252);
     position: fixed;
     width: 100%;
 }
@@ -194,6 +194,8 @@ button:hover {
     clear: both;
     display: flex;
     justify-content: space-around;
+    height: 546px;
+    padding-top: 48px;
 }
 
 .page_4 h1 {
@@ -201,8 +203,10 @@ button:hover {
     padding-left: 86px;
     padding-top: 47px;
 }
-.page_4 p{}
-.page_4 img{
+
+.page_4 p {}
+
+.page_4 img {
     width: 42px;
 }
 
@@ -215,7 +219,8 @@ button:hover {
     width: 400px;
     /* background: beige; */
 }
-.p_4-section_2 section{
+
+.p_4-section_2 section {
     padding-top: 60px;
     line-height: 26px;
 }
@@ -224,12 +229,61 @@ button:hover {
     width: 360px;
     /* background: beige; */
 }
-.p_4-section_3 section{
+
+.p_4-section_3 section {
     padding-top: 60px;
     line-height: 26px;
 }
-.industry section img{
-padding-top: 25px;
+
+.industry {
+    margin-top: 25px;
+}
+
+/* PAGE 5 */
+.page_5 {
+    display: flex;
+    padding-top: 75px;
+    padding-bottom: 50px;
+background-color: blue;
+}
+
+.p-5_left-section {
+    width: 32%;
+    padding: 59px;
+}
+
+.page_5 h1 {
+    font-size: 58px;
+    color: white;
+}
+
+.p-5_right_section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 23px;
+}
+
+.p-5_right_section section {
+    width: 287px;
+    width: 204px;
+    height: 170px;
+}
+.p-5_right_section-0{
+display: flex;
+}
+
+
+.p-5_right_section img {
+    height: 43px;
+    padding: 9px;
+    background-color:rgb(181, 181, 246);
+    border-radius: 72px;
+}
+
+.p-5_right_section span {
+    font-size: 27px;
+    color: white;
 }
 
 /* FAQs page */
