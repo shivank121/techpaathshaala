@@ -88,9 +88,24 @@ button {
 
 button:hover {
     background-color: #7e7ef1;
-    ;
     height: 52px;
     color: white;
+    cursor: pointer;
+    animation-name: btn;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: 0s;
+}
+@keyframes btn {
+    
+    0%{
+        box-shadow:0px 0px 0px 0px black ;
+        
+    }
+    100%{
+        box-shadow: inset 2px 2px 5px 1px rgb(113, 151, 246) , 2px 2px 5px 1px rgb(56, 13, 122);
+       
+    }
 }
 
 .button button img {
@@ -113,6 +128,7 @@ button:hover {
     align-items: center;
     align-items: center;
     height: 432px;
+    margin-top: 50px;
 }
 
 
@@ -155,11 +171,12 @@ button:hover {
 
 /* PAGE 3 */
 .page_3 {
-    width: 377px;
+    width: 390px;
     display: flex;
     flex-wrap: wrap;
     float: right;
     margin-right: 156px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .page_3 div {
@@ -223,11 +240,13 @@ button:hover {
 .p_4-section_2 section {
     padding-top: 60px;
     line-height: 26px;
+    font-family: 'Manrope', sans-serif;
 }
 
 .p_4-section_3 {
     width: 360px;
     /* background: beige; */
+    font-family: 'Manrope', sans-serif;
 }
 
 .p_4-section_3 section {
@@ -243,13 +262,13 @@ button:hover {
 .page_5 {
     display: flex;
     padding-top: 75px;
-    padding-bottom: 50px;
+    padding-bottom: 26px;
 background-color: blue;
 }
 
 .p-5_left-section {
-    width: 32%;
-    padding: 59px;
+    width: 34%;
+    padding: 61px;
 }
 
 .page_5 h1 {
@@ -280,12 +299,32 @@ display: flex;
     background-color:rgb(181, 181, 246);
     border-radius: 72px;
 }
+.second_section img{
+    height: 52px;
+    width: 53px;
+}
+.fourth_section img{
+    height: 48px;
+    width: 53px;
+}
+.fourth_section div{
+    font-size: 27px;
+    color: white;
+    padding-left: 30px
+}
+.third_section img{
+    height: 51px;
+    width: 57px;
+}
 
 .p-5_right_section span {
     font-size: 27px;
     color: white;
 }
-
+.sixth_section img{
+    width: 50px;
+    height: 50px;
+}
 /* FAQs page */
 
 .FAQs {
@@ -293,12 +332,14 @@ display: flex;
     height: 1000px;
     border-radius: 24px;
     clear: both;
+    
 }
 
 .FAQs h1 {
     text-align: center;
     padding: 27px;
     font-size: 40px;
+    padding-top: 70px;
 }
 
 .FAQs-row {
@@ -318,6 +359,7 @@ display: flex;
 .intro {
     padding-top: 15px;
     margin-left: 34px;
+    font-family: 'Lora', serif;
 }
 
 .FAQs section a img {
@@ -393,7 +435,7 @@ form input {
 
 /* footer page  */
 .footer {
-    height: 400px;
+    height: 350px;
 }
 
 .footer_logo img {
